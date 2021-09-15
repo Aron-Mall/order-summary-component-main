@@ -158,14 +158,14 @@ a.cancel-order {
     cursor: pointer;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
 
     body {
         background-color: var(--pale-blue);
         background-image: none;
     }
 
-    grid-container {
+    .grid-container {
 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
